@@ -59,7 +59,7 @@ modInverse a m =
     mod s (div m d)
     where (d, s, t) = solveLinearDiophantine a m 1
 
--- calculates b ^ e mod m by using a variety of simplifications steps
+-- calculates b ^ e mod m by using a variety of simplification steps
 -- to accelerate the process and prevent out of memory errors
 modPow :: Integer -> Integer -> Integer -> Integer
 modPow b e m =

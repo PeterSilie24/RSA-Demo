@@ -1,5 +1,7 @@
 -- simple demonstration of the RSA cryptography
 
+module Main where
+
 import RSA
 
 main = do
